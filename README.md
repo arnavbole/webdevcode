@@ -1,4 +1,4 @@
-# webdevcode
+#webdevcode
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,32 +7,26 @@
     <title>Forms</title>
 </head>
 <body>
-    <h1>HTML Forms</h1>
-    <p>This form collects some basic data</p>
-    <form action="#">
-        <h1>Text Inputs</h1>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name">
+    <h1>html forms</h1>
+    <p>this form collects some basic data</p>
+    <form action="">
+    <h1>Text Inputs</h1>
+    <label for="name">Name:</label>
+    
+    <input type="text" id="name" name="name" placeholder="Enter your Name">
+    <br>
+       <label for="Email">Email</label>
+       <input type="Email"id="Email" name="Email" placeholder="Enter your Email"> 
+       <br>
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" placeholder="password">
         <br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <h1>checkbox Button</h1>
+        <label for="subscirbe">Subscribe to my yt channel </label>
+        <input type="checkbox" name="terms" id="terms">
         <br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" placeholder="Enter your password">
-        <br>
-        <label for="confirm-password">Confirm Password:</label>
-        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password">
-
-        <!-- Checkbox Buttons -->
-        <h1>Checkbox Buttons</h1>
-        <label for="subscribe">Subscribe to our newsletter</label>
-        <input type="checkbox" id="subscribe" name="subscribe">
-        <br>
-        <label for="terms">I agree to the terms and conditions</label>
-        <input type="checkbox" id="terms" name="terms">
-        <br>
-        <label for="newsletter">I want to receive newsletter</label>
-        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">i want to receive newsletter</label>
+        <input type="checkbox" name="terms" id="terms">
         <br>
         <h1>Dropdown</h1>
         <label for="country">Select your country</label>
@@ -43,12 +37,12 @@
             <option value="canada">Canada</option>
         </select>
         <br>
-    <h1>long text area</h1>
-    <label for="message">Enter your message</label>
-    <textarea id="message" name="message" placeholder="Enter your message"></textarea>
-    <br>
-    <button type="reset">Reset</button>
-    <button type="submit">Submit</button>
+        <h1>long area </h1>
+        <label for="message">Enter your message</label>
+        <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+        <button type="reset">reset</button>
+        <br>
+        <button type="submit">submit</button>
     </form>
 </body>
 </html>
@@ -57,34 +51,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        My Portfolio
-    </title>
+    <title>Document</title>
 </head>
 <body>
     <header>
-<h1>Ayushman Mishra</h1>
-<p>Web Developer</p>
-<nav>
-    <a href="about.html">About</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-</nav>
+        <h1>ARNAV BOLE</h1>
+        <P>WEB DEVELOPER</P>
+        <nav>
+            <a href="about.html">about</a>
+            <a href="project.html">project</a>
+            <a href="contact.html">contact</a>
+        </nav>
     </header>
     <main>
         <section id=""about>
-            <h2>About me</h2>
-            <img src="https://via.placeholder.com/150" alt="profile picture">
-            <p>I am a student of Computer Science and Engineering</p>
-            <p>goal is to become rich and famous</p>
+            <h2>About me </h2>
+            <img src="" alt="profile picture">
+            <p>i am a student of computer science </p>
             <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>javascript</li>
-                <li>react</li>
+                <li> html </li>
+                <li> css </li>
+                <li> javascript</li>
+                <li>react </li>
+            
             </ul>
-        </section>
-        <section id="projects">
+            </section>
+            <section id="projects">
             <h2>Projects</h2>
            <article>
             <h3>Project 1</h3>
@@ -108,18 +100,20 @@
                 <h3>Bachelor of Technology</h3>
                 <p>Computer Science and Engineering</p>
                 <p>2020-2024</p>
-                <p>University of Delhi</p>
+                <p>MIT ADT University</p>
             </article>
             <article>
                 <h3>Master of Technology</h3>
                 <p>Computer Science and Engineering</p>
                 <p>2024-2026</p>
-                <p>University of Delhi</p>
+                <p>MIT ADT University</p>
             </article>
         </section>
     </main>
     <footer>
-        <p>Copyright 2026 Ayushman Mishra</p>
+        <p>Copyright 2026 ARNAV BOLE</p>
     </footer>
+
 </body>
 </html>
+
